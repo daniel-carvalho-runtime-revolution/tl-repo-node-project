@@ -31,15 +31,6 @@ As definições são lidas de `.env` (ver exemplo no ficheiro). Há ainda uma po
 de acesso opcional (HTTP Basic Auth) controlada por `LAB_ACCESS_USER` /
 `LAB_ACCESS_PASSWORD` — deixa ambas vazias para desativar.
 
-## Utilizadores de exemplo
-
-| Utilizador | Password  | Papel    |
-|------------|-----------|----------|
-| admin      | admin123  | admin    |
-| joana      | joana2024 | customer |
-| rui        | password  | customer |
-| suporte    | suporte   | support  |
-
 ## Estrutura
 
 ```
