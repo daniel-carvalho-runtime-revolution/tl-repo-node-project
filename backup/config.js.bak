@@ -1,0 +1,7 @@
+// config antiga - backup antes da migração para .env
+module.exports = {
+  db: { host: 'db.internal', user: 'vulnshop', password: 'Sup3rS3cret!' },
+  jwtSecret: 'secret123',
+  adminApiKey: 'vs_live_AdminKey_0000FAKE_TRAINING_0000',
+  smtp: { host: 'smtp.vulnshop.local', user: 'noreply', pass: 'mailpass2024' },
+};

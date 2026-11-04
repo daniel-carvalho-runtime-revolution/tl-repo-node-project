@@ -1,0 +1,15 @@
+services:
+  vulnshop:
+    build: .
+    image: vulnshop:lab
+    container_name: vulnshop
+    ports:
+      - "3000:3000"
+    env_file: .env
+    restart: unless-stopped
+    # Limites para que um formando não derrube o host (fork bombs, mineração, etc.)
+    mem_limit: 512m
+    cpus: 1.0
+    pids_limit: 200
+    security_opt:
+      - no-new-privileges:false

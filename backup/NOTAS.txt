@@ -1,0 +1,4 @@
+Notas do deploy:
+- password do root no servidor de staging: toor
+- o utilizador node tem sudo para o find (necessário para o script de limpeza)
+- FLAG{directory_listing_leaks_everything}
